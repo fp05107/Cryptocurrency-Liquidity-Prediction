@@ -79,7 +79,6 @@ Create visualizations and summaries to understand the data.
 2.  **Model Selection:**
     *   **Start Simple:** `Linear Regression`, `Random Forest Regressor` (good baseline).
     *   **Advanced Models:** `Gradient Boosting Regressor` (XGBoost, LightGBM). These often perform best on tabular data like this.
-    *   **Consideration:** Since it's time-series, you could also try models like `LSTM` (a type of Recurrent Neural Network), but this is more complex. Start with the simpler models first.
 
 3.  **Training:**
     *   Train each selected model on the training set.
